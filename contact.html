@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head>
+    <meta name="generator" content="Murat Yazılım-Tr">
+    <meta charset="UTF-8">
+    <title>'Murat Yazılım-Tr' a hoş geldiniz.</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').click(function () {
+
+                $("li").parent().find('li').removeClass("current");
+                $(this).addClass('current');
+            });
+        });
+    </script>
+    <div class="example">
+        <div style="color: navy; text-align: center; font-weight: bolder; font-size: 70px; text-shadow: rgb(128, 128, 128) 8px 3px 2px;">
+            MURAT YAZILIM-TR
+        </div>
+        <ul id="nav">
+            <li>
+                <a href="index.html">ANA SAYFA</a>
+            </li>
+            <li>
+                <a href="product.html">ÜRÜNLERİMİZ</a>
+            </li>
+            <li>
+                <a href="download.html">İNDİR</a>
+            </li>
+            <li>
+                <a href="about.html">HAKKIMIZDA</a>
+            </li>
+            <li class="current">
+                <a href="contact.html">İLETİŞİM</a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="width:auto;font-weight:bold;color:navy;">
+        <div style="text-align:center;font-size:25px;">İletişim</div>
+        <br />
+        <div style="text-align:center;">
+            <strong>
+                &nbsp; Cep Telefonu  ☎: 0543 406 35 66
+                <br />
+                E-Mail <big>✉:</big>
+                <a href="mailto:muratyazilimtr@gmail.com">
+                    muratyazilimtr@gmail.com
+                </a>
+                <br />
+                <br />
+                <big> Adres</big>
+                <br />
+                Güneşli Mah. Bağcılar./İstanbul.
+            </strong>
+        </div>
+    </div>
+</body>
+</html>

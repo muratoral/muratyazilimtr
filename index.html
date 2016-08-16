@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head>
+    <meta name="generator" content="Murat Yazılım-Tr">
+    <meta charset="UTF-8">
+    <title>'Murat Yazılım-Tr' a hoş geldiniz.</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('li').click(function () {
+
+                $("li").parent().find('li').removeClass("current");
+                $(this).addClass('current');
+            });
+        });
+
+    </script>
+
+    <div class="example">
+        <div style="color:navy; text-align:center; font-weight:bolder; font-size:70PX;text-decoration:solid;text-shadow:8PX 3px 2PX #808080;">
+            MURAT YAZILIM-TR
+        </div>
+
+        <ul id="nav">
+            <li class="current">
+                <a href="index.html">ANA SAYFA</a>
+            </li>
+            <li>
+                <a href="product.html">ÜRÜNLERİMİZ</a>
+            </li>
+            <li>
+                <a href="download.html">İNDİR</a>
+            </li>
+            <li>
+                <a href="about.html">HAKKIMIZDA</a>
+            </li>
+            <li>
+                <a href="contact.html">İLETİŞİM</a>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div class="text">
+        <div>
+            <span style="font-weight: bold;color:navy;">&nbsp; 6 Ağustos 2016 Cumartesi</span>
+        </div>
+        <br />
+        <br />
+        <div style="font-weight: bold; text-align: center;color:navy;">
+            <big><big><big>Web sayfamıza hoş geldiniz.</big></big></big>
+        </div>
+
+        <div style="margin-left: 30px;color:navy;">
+            <p style="text-indent:30px;">
+                MURAT YAZILIM-TR sizlere yazılım konusunda yeni soluklar
+                kazandırmak için açıldı. Amacımız siz değerli müşterilerimize özgün,
+                kaliteli, fonksiyonel ve kullanıcı dostu yazılımlar üretmektir. Yazılım
+                geliştirme araçlarımız lisanslı olup, teknolojinin gelmiş olduğu son
+                nokta olan Microsoft Firmasının .NET Framework kütüphanesini
+                kullanmaktayız.
+                <br>
+                <br>
+                Saygılarımla,
+                <br>
+                Murat ORAL.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
